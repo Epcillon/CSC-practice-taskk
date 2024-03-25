@@ -41,8 +41,7 @@ def quiz():
        print()
      repeat=input("Do you want to try again "+Name+"?, y/n:")
      print()
-if repeat=="y":
-  quiz()
-else:
-  exit()
+     if repeat!="y":
+      exit()
+quiz()
 
