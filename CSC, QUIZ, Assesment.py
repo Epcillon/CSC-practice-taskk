@@ -30,18 +30,20 @@ def quiz():
         else:
          score+=0 
          print("False\n")
-  #Final scoring and passing
+  #Final scoring and passing 
      print("You scored:",score*20,"%")
      print(score,"/",5, "Correct")
      if score>=3:
-       print("Congratulations!",Name, ",You passed!")
+       print("Congratulations "+Name+"," " You passed!")
        print()
      elif score<=2:
        print("You failed to pass, try again next time",Name)
        print()
+     
      repeat=input("Do you want to try again "+Name+"?, y/n:")
      print()
      if repeat!="y":
-      exit()
+       exit()
 quiz()
+
 
